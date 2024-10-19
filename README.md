@@ -1,8 +1,12 @@
-# React + Vite
+### Blur Blob
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Blur Blob Demo](./src/assets/blurBlop.gif)
 
-Currently, two official plugins are available:
+Blur Blob is a dynamic and interactive web-based project that creates a visually engaging animation of a colorful blob that follows the mouse movements. The blob changes colors smoothly using the HSL color model and applies a blur effect to create a soft, flowing motion. The project also supports dark mode, allowing users to toggle between light and dark themes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Features:**
+- Interactive blob that follows mouse movement
+- Smooth color transitions using the HSL color model
+- Integrated dark mode with toggle functionality
+- Responsive design with customizable settings
+- Built with React and TailwindCSS
