@@ -120,7 +120,7 @@ const App = () => {
       onMouseMove={handleMouseMove} // Blob still follows the mouse
     >
       <div 
-        className={`relative cursor-pointer z-10 flex justify-end pe-20 py-5 ${isDarkMode ? 'text-citrine' : 'text-biru'}`}
+        className={`relative cursor-pointer z-10 flex justify-end pe-5 md:pe-16 py-5 ${isDarkMode ? 'text-citrine' : 'text-biru'}`}
         onClick={handleDarkMode}>
         { isDarkMode ? <LightIcon /> : <DarkIcon /> }
       </div>
@@ -145,8 +145,8 @@ const App = () => {
           className="absolute blur-[150px] opacity-75 z-0"
         ></div>
       </div>
-      <div className="absolute text-biru dark:text-citrine top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
-        <h2 className="text-5xl font-bold">Blur Blob</h2>
+      <div className="absolute w-max text-biru dark:text-citrine top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
+        <h2 className="text-5xl font-bold ">Blur Blob</h2>
         <span className="font-thin flex justify-center">- by Indrawansyah</span>
       </div>
     </div>
